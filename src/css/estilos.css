@@ -20,3 +20,27 @@
     margin: 6px;
     gap: .5rem;
 }
+
+.eu {
+
+    max-width: 250px;
+    border-radius:  100%;
+    align-items: center;
+    
+}
+
+.inicio {
+    height: 500px;
+    text-align: center;
+    background-color: rgb(14, 19, 17);
+
+}
+
+.meu-nome {
+    color: rgb(253, 253, 251);
+}
+
+.dev {
+    color: rgb(253, 253, 251);
+
+}
