@@ -22,17 +22,77 @@
 }
 
 .eu {
-
-    max-width: 250px;
-    border-radius:  100%;
-    align-items: center;
+    max-width: 200px;
+    text-align: center;
+    border-radius: 50%;
+    
     
 }
 
+.container {
+    display: inline-flex;
+    
+}
+
+.container .estatico{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.container  .dinamico {
+    margin-left: 15px;
+    line-height: 40px;
+    height: 40px ;
+    overflow: hidden;
+}
+
+.dinamico li {
+    color: #fc6d6d;
+    list-style: none;
+    font-size: 40px;
+    font-weight: 500px;
+    left: 0;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide{
+    100%{
+        top: -310px ;
+    }
+}
+
+.dinamico li span::after{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    border-left: 6px solid #cc4646;
+    animation: typing 1.5s steps(10) infinite;
+    background: rgb(44, 11, 44);
+}
+
+.dinamico li span {
+    position: relative;
+
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
 .inicio {
+    display: flex;
     height: 500px;
     text-align: center;
-    background-color: rgb(14, 19, 17);
+    background-color: rgb(44, 11, 44);
+    padding: 1rem;
+    margin: 6px;
 
 }
 
@@ -43,4 +103,19 @@
 .dev {
     color: rgb(253, 253, 251);
 
+}
+
+.servico {
+    font-size: 30px;
+
+}
+
+.formacao {
+    padding: 1rem;
+    display: flex;
+    
+}
+
+.ensino {
+    max-width:
 }
