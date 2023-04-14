@@ -32,6 +32,7 @@
 .container {
     display: inline-flex;
     
+    
 }
 
 .container .estatico{
@@ -51,7 +52,7 @@
     color: #fc6d6d;
     list-style: none;
     font-size: 40px;
-    font-weight: 500px;
+    font-weight: 600px;
     left: 0;
     position: relative;
     top: 0;
@@ -88,7 +89,8 @@
 }
 .inicio {
     display: flex;
-    height: 500px;
+    justify-content: space-between;
+    height: 300px;
     text-align: center;
     background-color: rgb(44, 11, 44);
     padding: 1rem;
@@ -107,15 +109,48 @@
 
 .servico {
     font-size: 30px;
+    margin: 6px;
 
+}
+
+.trabalho {
+    margin: 6px;
 }
 
 .formacao {
     padding: 1rem;
+    display: flex;    
+}
+
+.ensino {
+    width: 200px;
+    height: 200px;
+}
+
+.informatica {
+    width: 200px;
+    height: 200px;
+}
+
+.cursando {
+    width: 200px;
+    height: 200px;
+}
+
+.redes {
     display: flex;
     
 }
 
-.ensino {
-    max-width:
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer a {
+    margin: 20px;
+}
+
+footer p {
+    margin: 2px;
 }
