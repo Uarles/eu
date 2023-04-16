@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="./src/imagens/299099912_487130756577143_7531189289588198612_n.webp" type="image/x-icon">
+
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/resert.css">
     <link rel="stylesheet" href="./src/css/responsividade.css">
@@ -20,22 +22,40 @@
 
     
 
-    <header id="header">
-        <a id="nome" href="">Uarles Lemes</a>
-        <nav id="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Uarles</h1>
+            </div>
 
-                <span id="icone"></span>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Serviço</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Formação</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
 
-            </button>
-            <ul id="menu" role="menu">
-                <li><a href="index.html">Sobre mim</a></li>
-                <li><a href="/">Serviço</a></li>
-                <li><a href="/">Formação</a></li>
-                <li><a href="/">Conteúdo</a></li>
-            </ul>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./src/imagens/3 trassos.png" ></button>
+            </div>
+
         </nav>
+
+        <div  class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Serviço</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Formação</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+
+            </ul>
+        </div>
     </header>
+
+    <script src="script.js"></script>
 
     <div class="inicio">
         <img class="eu" src="./src/imagens/imagem preta.jpg" alt="">
@@ -58,12 +78,12 @@
 
     <main class="sobre-mim">
         <img class="minha-foto" src="./src/imagens/299099912_487130756577143_7531189289588198612_n.webp" alt="">
-        <p class="texto">Bem, esse sou eu meu nome é Uarles Lemes Dos Santos tenho 19 anos, filho do Fracelino Cordeiro Dos Santos e da Gloria Lemes Dos Santos sou de uma pequena cidade da Bahia que se chama Brejolândia, la é muito bom por que eu fazia muitas coisas, tipo criar gado, cavalo, porco, galinha etc. Um otimo lugar para viver eu mechia com plantações de varios alimentos, tirava leite era uma vida perfeita sem nada pra reclamar, estudava bastente concluir ensino médio feiz alguns cursos saia bastante com os amigos e de bem com todos, ate que em um dis percebir que aquilo não era pra mim estava faltando alguma coisa eu so tinha que descobrir o que era ate começei uma faculdade para mim tornar professor de matematica, mas ainda assim vi que não era o que eu queria sair logo no inicio antes mesmo de começar, decidir que tinha que sair daquele lugar largar tudo para trás meu pai, minha mãe, minha irmã mais nova, amigos, os animais que ate hoje morro de saudade. E vim morar em Divínopolis uma cidade expetacular de Minas Gerais, demorei me acustumar pois ainda estava perdido, ainda não citei mas tenho três irmãos que ja moravam aqui e me derão uma grande força. 
-        Hoje estou trabalhando e estudando, não atingir meus objetivos creio eu que ainda estão muito longe mas o que importa é que eu sei que estou no caminho certo, me descobrir no mundo da tecnologia e hoje quero ser programador. Me tornei cristão nunca achei que um dia eu seria, pela a vida que eu levava, mas enfim me tornei estou amando eu não quero mudar isso ja mais. É isso ai um pequeno resume sobre mim esta feito.</p>
+        <p class="texto">Bem, esse sou eu meu nome é Uarles Lemes Dos Santos tenho 19 anos, filho do Fracelino Cordeiro Dos Santos e da Gloria Lemes Dos Santos sou de uma pequena cidade da Bahia que se chama Brejolândia, la é muito bom por que eu fazia muitas coisas, tipo criar gado, cavalo, porco, galinha etc. Um otimo lugar para viver eu mechia com plantações de varios alimentos, tirava leite era uma vida perfeita sem nada pra reclamar, estudava bastente concluir ensino médio fiz alguns cursos saia bastante com os amigos e de bem com todos, ate que em um dia percebir que aquilo não era pra mim estava faltando alguma coisa eu so tinha que descobrir o que era, ate comecei uma faculdade para mim tornar professor de matemática, mas ainda assim vi que não era o que eu queria, sair logo no inicio antes mesmo de começar, decidir que tinha que sair daquele lugar largar tudo para trás meu pai, minha mãe, minha irmã mais nova, amigos, os animais que ate hoje morro de saudade. E foi então vim morar em Divínopolis uma cidade expetacular de Minas Gerais onde ja moravam 3 irmãos meus, demorei me acustumar pois ainda estava perdido, minha sorte e que meus irmãos me derão uma grande força. 
+        Hoje estou trabalhando e estudando, não atingir meus objetivos creio eu que ainda estão muito longe mas o que importa é que eu sei que estou no caminho certo me descobrir no mundo da tecnologia e hoje quero ser programador. Me tornei cristão nunca achei que um dia eu seria, pela a vida que eu levava, mas enfim me tornei, estou amando eu não quero mudar isso ja mais. É isso ai um pequeno resume sobre mim esta feito.</p>
     </main>
 
     <div class="servico">
-        <h1>programador</h1>
+        <h1 class="pro">PROGRAMADOR</h1>
 
         <p class="trabalho">Sou Desenvolvedor de Front-End, não trabalho na area, não tenho experiência mas estou cursando tecnico em desenvolvimento de sistemas, onde aprendi muito sobre programação, e hoje ja consigo desenvover alguns sites, como ja fiz alguns como desenvover de Front-End, logo vou mostrar, entrego um serviço de qualidade  e quero me aprofundar ainda mais nessa area, para fazer sua empresa crescer ainda mais.</p>
         <div class="fotos">
@@ -73,30 +93,34 @@
         </div>
     </div>
 
+    <h1 class="pro">FORMAÇÃO<h1>
     <div class="formacao">
-        <h1 class="medio">Emsino Médio Completo</h1>
+        <h1 class="concluido">Emsino Médio Completo</h1>
         <img class="ensino" src="./src/imagens/ensino medio completo.jpg" alt="">
-        <h1 class="basica">Informática Basica</h1>
+        <h1 class="concluido">Informática Basica</h1>
         <img class="informatica" src="./src/imagens/informatica basica.jpg" alt="">
-        <h1 class="tecnico">Cursando: Técnico Em Desenvolvimento De Sistema</h1>
+        <h1 class="concluido">Cursando: Técnico Em Desenvolvimento De Sistema</h1>
         <img class="cursando" src="./src/imagens/tecino.jpg" alt="">
 
     </div>
 
+    <h1 class="pro">APAIXONADO POR</h1>
+    <P class="paixao">Sou apaixonado por muitas coisas tipo futebol, viajar, exercicios, esta com a familia, estudar, joga game, tecnologia, ajudar o proximo, animais e entre diversas outras coisas. </P>
+
     <footer class="redes">
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/uarles_lemes/" target="_blank" rel="noopener noreferrer">
             <img src="./src/imagens/instagram.png" alt="">
             <p>instagram</p>
         </a>
-        <a href="" target="_blank" rel="noopener noreferrer">
-            <img src="./src/imagens/github-sign.png" alt="">
+        <a href="https://github.com/Uarles" target="_blank" rel="noopener noreferrer">
+            <img src="./src/imagens/github.png" alt="">
             <p>GitHub</p>
         </a>    
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/uarles.guerreiro?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
             <img src="./src/imagens/facebook.png" alt="">
             <p>Facebook</p>
         </a>      
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/uarles-lemes-dos-santos-872375259/" target="_blank" rel="noopener noreferrer">
             <img src="./src/imagens/linkedin.png" alt="">
             <p>Linkedin</p>
         </a>      

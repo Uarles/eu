@@ -1,20 +1,10 @@
-const btnMobile = document.getElementById('btn-mobile');
+function menuShow() {
+  let menuMobile = document.querySelector('.mobile-menu');
+  if(menuMobile.classList.contains('open')) {
+    menuMobile.classList.remove('open');
 
-function toggleMenu(event) {
-    if (event.type === 'touchstart') event.preventDefaul();
-    const nav = document.getElementById('nav');
-    nav.classList.toggle('active');
-    const active = nav.classList.contains('active');
-    event.currentTarget.satAttribute('aria-expanded', active);
-    if (active) {
-        event.currentTarget.satAttribute('aria-label', 'Fechar Menu');
-    } else {
-      event.currentTarget.satAttribute('aria-label', 'Abrir Menu');
+  } else {
+    menuMobile.classList.add('open');
 
-    }
-
+  }
 }
-
-
-btnMobile.addEventListener('click', toggleMenu);
-btnMobile.addEventListener('touchstart', toggleMenu);
