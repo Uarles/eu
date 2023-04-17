@@ -106,3 +106,68 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .eu {
+        height: 100px;
+    }
+
+    .meu-nome {
+        font-size: 15px;
+    }
+
+    .inicio {
+        display: block;
+        height: 200px;
+        width: 450px;
+
+    }
+
+    .dinamico {
+        font-size: 10px;
+    }
+
+    .estatico {
+        font-size: 10PX;
+    }
+
+    .minha-foto {
+        height: 150px;
+    }
+
+    .texto {
+        font-size: 10px;
+    }
+
+    .sobre-mim {
+        height: 700px;
+    }
+
+    .servico {
+        height: 250px;
+    }
+
+    .pro {
+        font-size: 15px;
+    }
+
+    .trabalho {
+        font-size: 10px;
+    }
+
+    .fotos {
+        height: 50px;
+    }
+
+    .formacao {
+        display: block;
+    }
+
+    .concluido {
+        font-size: 15px;
+    }
+    
+    .paixao {
+        font-size: 10px;
+    }
+}
