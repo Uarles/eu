@@ -43,4 +43,66 @@
         display: block;
     }
     
+    .eu {
+        height: 200px;
+    }
+
+    .meu-nome {
+        font-size: 20PX;
+    }
+
+    .inicio {
+        display: block;
+        height: 400px;
+        width: 635px;
+
+    }
+
+    .dinamico {
+        font-size: 20px;
+    }
+
+    .estatico {
+        font-size: 20PX;
+    }
+
+    .minha-foto {
+        height: 300px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .sobre-mim {
+        height: 950px;
+    }
+
+    .servico {
+        height: 400px;
+    }
+
+    .pro {
+        font-size: 25px;
+    }
+
+    .trabalho {
+        font-size: 20px;
+    }
+
+    .fotos {
+        height: 100px;
+    }
+
+    .formacao {
+        display: block;
+    }
+
+    .concluido {
+        font-size: 25px;
+    }
+    
+    .paixao {
+        font-size: 20px;
+    }
 }

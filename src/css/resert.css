@@ -22,12 +22,17 @@ header {
 }
 
 .logo {
+    font-size: 30px;
     display: flex;
     align-items: center;
 }
 
 .logo H1 {
-    color: #fff;
+    color: rgb(180, 32, 12);
+}
+
+div ul a:hover {
+    background-color: rgb(180, 32, 12);
 }
 
 .nav-list {
@@ -62,5 +67,6 @@ header {
 }
 
 .icon {
+    background-color: rgb(180, 32, 12);
     height: 50px;
 }
